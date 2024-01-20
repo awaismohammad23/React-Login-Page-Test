@@ -1,15 +1,8 @@
 .sidebar-menu {
-    width: 15%;
+    width: 20%;
     height: 100vh;
     margin-top: 0%;
     transition: width 0.5s;
-
-}
-
-.sidebar-menu seperator{
-    width: 100%;
-    height: 2px;
-    background-color: #ccc;
 
 }
 
@@ -24,13 +17,13 @@
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    background-color: brown;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     display: flex;
     font-family: Lato;
     font-size: 20px;
     transition: background-color 0.5s;
+    margin-left: 15%;
 }
   
 .items-logo{
