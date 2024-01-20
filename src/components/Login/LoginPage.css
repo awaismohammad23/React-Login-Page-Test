@@ -46,8 +46,36 @@
     width: 450px;
     font-size: 22px;
     height: 60px;
+    font-family: Quicksand;
     border-radius: 10px;
     margin-top: 2%;
     border-color: white;
     margin-left: calc(50% - 225px);
+}
+
+.login-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-top: 5%;
+    color: white;
+    font-family: Quicksand;
+    background-color: #FC8955;
+    margin-left: 35%;
+}
+
+.forgot-password{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 2%;
+    color: white;
+    border-color: white;
+    font-family: Quicksand;
+    text-decoration: underline;
 }

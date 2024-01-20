@@ -16,7 +16,10 @@ const LoginPage = () => {
 
         <input className='input' type="text" placeholder="Your Username" />
         <input className='input' type="password" placeholder="Password" />
+
+        <button className='login-button'>Sign In</button>
             
+        <div className='forgot-password'>Forgot Password?</div>
       </div>
     </div>
   );
