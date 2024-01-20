@@ -19,7 +19,6 @@
     flex-direction: column;
     justify-content: right;
     align-items: right;
-    backdrop-filter: blur(10%);
 }
 
 /*logo setting*/

@@ -4,16 +4,16 @@ import LogoImage from '../../assets/Logo.svg';
 const LoginPage = () => {
 
   return (
-    <div className='background'>
+   
+   <div className='background'>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="login-content">
+        
         <div className='logo'>
           <img src={LogoImage} alt="Logo" />
         </div>
 
-        <div className='login-text'>
-            USER LOGIN
-        </div>
+        <div className='login-text'>USER LOGIN</div>
 
         <input className='input' type="text" placeholder="Your Username" />
         <input className='input' type="password" placeholder="Password" />
