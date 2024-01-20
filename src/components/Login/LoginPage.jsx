@@ -5,6 +5,7 @@ const LoginPage = () => {
 
   return (
     <div className='background'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="login-content">
         <div className='logo'>
           <img src={LogoImage} alt="Logo" />
