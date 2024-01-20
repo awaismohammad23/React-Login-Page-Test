@@ -1,5 +1,7 @@
+//background image.
 import Background from './background.png'
-import HelpInformation from 'help-information.svg'
+
+//hotels images
 import Hotel1 from 'hotel1.png'
 import Hotel2 from 'hotel2.png'
 import Hotel3 from 'hotel3.png'
@@ -8,6 +10,8 @@ import Hotel5 from 'hotel5.png'
 import Hotel6 from 'hotel6.png'
 import Hotel7 from 'hotel7.png'
 import Hotel8 from 'hotel8.png'
+
+//logos for the components
 import MainLogo from 'Logo-1.svg'
 import SecondLogo from 'Logo.svg'
 import Logout from 'logout.svg'
@@ -17,6 +21,7 @@ import Quotation from 'quotation.svg'
 import ROE from 'ROE.svg'
 import SightSeeings from 'sight-seeings.svg'
 import Transfers from 'transfers.svg'
+import HelpInformation from 'help-information.svg'
 
 //exporting the logos and background images for the components.
 export {

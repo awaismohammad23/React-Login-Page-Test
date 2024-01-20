@@ -1,26 +1,53 @@
-.login-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 .background{
-    background: fixed;
+    background-image: url("/home/awais/Desktop/Work/ui-design-test/src/assets/background.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.input-user{
-    width: 300px;
-    height: 40px;
-    margin-top: 30%;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    padding-left: 10px;
+.login-content{
+    background-color: #2e359c6e;
+    width: 60%;
+    height: 100vh;
+    margin-left: 40%;
+    margin-right: 0%;
+    display: relative;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    backdrop-filter: blur(10%);
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 5%;
+    color: white;
+    font-family: Quicksand;
+}
+
+.input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 450px;
+    font-size: 22px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 2%;
+    border-color: white;
+    margin-left: calc(50% - 225px);
 }
