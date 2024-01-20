@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import LoginPage from './frontend/LoginPage';
+import {Hotels, LoginPage} from './components'
 
 function App() {
   return (
-    <div className="App">
-      
-      <LoginPage/>
-    
-    </div>
+    <>
+      <LoginPage/> <Hotels/>
+    </>
   );
 }
 
