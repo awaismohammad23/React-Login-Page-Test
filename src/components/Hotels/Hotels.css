@@ -20,6 +20,8 @@
     margin-left: 15%;
     border-radius: 10px;
     box-sizing: content-box;
+    background-color: rgb(229, 221, 221);
+    border: none;
 }
 
 .icons{
@@ -28,4 +30,12 @@
 
 .notification{
     margin-left: 5%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
 }

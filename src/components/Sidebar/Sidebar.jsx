@@ -21,27 +21,27 @@ export const Sidebar = () => {
         </div>
 
         <div className='items'>
-          <img src={Overview} alt="overview" /> <span> Overview</span>
+          <img src={Overview} alt="overview" /> <span>Overview</span>
         </div>
 
         <div className='items'>
-          <img src={Quotation} alt="quotations" /> <span> Quotation</span>
+          <img src={Quotation} alt="quotations" /> <span>Quotation</span>
         </div>
 
         <div className='items'>
-          <img src={Hotel} alt="hotels" /> <span> Hotels</span>
+          <img src={Hotel} alt="hotels" /> <span>Hotels</span>
         </div>
 
         <div className='items'>
-          <img src={SightSeeings} alt="sight-seeings" /> <span> Sight Seeings</span>
+          <img src={SightSeeings} alt="sight-seeings" /> <span>Sight Seeings</span>
         </div>
 
         <div className='items'>
-          <img src={Transfers} alt="transfers" /> <span> Transfers</span>
+          <img src={Transfers} alt="transfers" /> <span>Transfers</span>
         </div>
 
         <div className='items'>
-          <img src={ROE} alt="roe" /> <span> ROE</span>
+          <img src={ROE} alt="roe" /> <span>ROE</span>
         </div>
 
         <div className='items'></div>
@@ -51,11 +51,11 @@ export const Sidebar = () => {
 
 
         <div className='items'>
-          <img src={HelpAndInformation} alt="helpandinformation" /> <span> Help and Information</span>
+          <img src={HelpAndInformation} alt="helpandinformation" /> <span>Help and Information</span>
         </div>
 
         <div className='items'>
-          <img src={Logout} alt="logout" /> <span> Logout</span>
+          <img src={Logout} alt="logout" /> <span>Logout</span>
         </div>
       </div>
 
