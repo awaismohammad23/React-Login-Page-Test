@@ -7,12 +7,12 @@
     height: 100vh;
     margin-top: 0%;
     transition: width 0.5s;
-    position: initial;
+    
 }
 
 .vertical-line {
     width: 2px;
-    background-color: #ddd; 
+    background-color: black; 
     height: 100vh;
 }
 
