@@ -18,11 +18,6 @@ const Hotels = () => {
         <img src={SearchIcon} alt='search' className='icons'/>
         <img src={Notifiaction} alt='notification' className='notification'/>
         
-        {/*adding card for hotels list*/}
-        <div >
-            <HotelCard />
-        </div>
-
     </div>
     
   )

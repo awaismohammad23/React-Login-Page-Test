@@ -22,6 +22,9 @@
     box-sizing: content-box;
     background-color: rgb(229, 221, 221);
     border: none;
+    font-size: 18px;
+    font-family: Lato;
+
 }
 
 .icons{
@@ -32,10 +35,10 @@
     margin-left: 5%;
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 5%;
+
+.hotelcards{
+    margin-top: 10%;
+    display: flexbox;
+    align-items: right;
+    justify-content: right;
 }
