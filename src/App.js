@@ -8,7 +8,6 @@ function App() {
     <>
       <LoginPage/> 
       <Sidebar/>
-      <Hotels/>
     </>
   );
 }

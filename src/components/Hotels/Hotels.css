@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.heading{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Lato;
+    align-items: left;
+    justify-content: left;
+}
+
+.search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.icons{
+    margin-left: 5%;
+}
+
+.notification{
+    margin-left: 5%;
+}

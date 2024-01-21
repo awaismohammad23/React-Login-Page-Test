@@ -1,9 +1,24 @@
 import React from 'react'
 import './Hotels.css'
+import SearchIcon from '../../assets/search.svg'
+import Notifiaction from '../../assets/new.svg' 
 
 const Hotels = () => {
   return (
-    <div>This is Hotels component.</div>
+    <div className='container'>
+
+        {/*heading for the hotels*/}
+        <div className='heading'><b>Hotels</b></div>
+
+        {/*search bar added*/}
+        <input type='text' placeholder='Search Hotels' className='search' />
+
+        {/*adding icons for search and notification*/}
+        <img src={SearchIcon} alt='search' className='icons'/>
+        <img src={Notifiaction} alt='notification' className='notification'/>
+        
+
+    </div>
   )
 }
 
