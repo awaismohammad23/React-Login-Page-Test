@@ -27,7 +27,3 @@ jobs:
           -t "${{ secrets.DOCKERHUB_USERNAME }}/hotel-frontend:latest" \
           -f Dockerfile .
         docker push "${{ secrets.DOCKERHUB_USERNAME }}/hotel-frontend:latest"
-      env:
-        DOCKER_BUILDKIT: 1
-        DOCKER_CLI_ACI=1
-
