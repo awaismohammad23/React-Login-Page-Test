@@ -21,7 +21,7 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker tag frontend-image:latest ${{ secrets.DOCKERHUB_USERNAME }}/hotel-image:latest
+        docker tag hotel-image:latest ${{ secrets.DOCKERHUB_USERNAME }}/hotel-image:latest
         docker push "${{ secrets.DOCKERHUB_USERNAME }}/hotel-image:latest"
 
 
