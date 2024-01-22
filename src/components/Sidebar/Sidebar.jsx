@@ -132,7 +132,6 @@ export const Sidebar = () => {
           <div className='items'></div>
           <div className='items'></div>
           <div className='items'></div>
-          <div className='items'></div>
 
 
           <div className='items'>
