@@ -14,7 +14,9 @@ Make sure you have installed all the node modules in your project folder after c
 
 ## To install dependencies
 
-    npm install
+```console
+   npm install
+```
 
 ## To Run the project
 
