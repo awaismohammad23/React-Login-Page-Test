@@ -20,7 +20,12 @@ Make sure you have installed all the node modules in your project folder after c
 
 ## To Run the project
 
-    npm start
+```console
+   npm start
+```
 
 # Node version
+
+```console
     v21.4.0
+```
