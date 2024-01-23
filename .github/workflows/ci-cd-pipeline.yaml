@@ -29,6 +29,6 @@ jobs:
     - name: Tag and Push Docker Image
       run: |
         DOCKER_SHA_TAG="${{ steps.build.outputs.image_tag }}"
-        DOCKERHUB_IMAGE_TAG="${{ secrets.DOCKERHUB_USERNAME }}/frontend-image:latest"
+        DOCKERHUB_IMAGE_TAG="${{ secrets.DOCKERHUB_USERNAME }}/hotel-image:latest"
         docker tag "$DOCKER_SHA_TAG" "$DOCKERHUB_IMAGE_TAG"
         docker push "$DOCKERHUB_IMAGE_TAG"
