@@ -15,8 +15,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        IMAGE_TAG="hotel-image:latest"
-        DOCKER_SHA_TAG="${IMAGE_TAG}-${{ github.sha }}"
+        DOCKER_SHA_TAG="hotel-image:latest-${GITHUB_SHA::8}"  # Use the first 8 characters of the SHA
         docker build -t "$DOCKER_SHA_TAG" .
         echo "::set-output name=image_tag::$DOCKER_SHA_TAG"
 
@@ -29,6 +28,6 @@ jobs:
     - name: Tag and Push Docker Image
       run: |
         DOCKER_SHA_TAG="${{ steps.build.outputs.image_tag }}"
-        DOCKERHUB_IMAGE_TAG="${{ secrets.DOCKERHUB_USERNAME }}/hotel-image:latest"
+        DOCKERHUB_IMAGE_TAG="${{ secrets.DOCKERHUB_USERNAME }}/frontend-image:latest"
         docker tag "$DOCKER_SHA_TAG" "$DOCKERHUB_IMAGE_TAG"
         docker push "$DOCKERHUB_IMAGE_TAG"
